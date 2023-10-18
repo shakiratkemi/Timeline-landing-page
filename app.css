@@ -91,7 +91,7 @@ body {
 
 .side-nav-lists ul {
   list-style: none;
-  padding: 10px;
+  padding: 15px;
 }
 
 .side-nav-lists ul li {
@@ -114,15 +114,15 @@ body {
   font-size: 8px;
 }
 
-.side-nav-lists-bottom-menu li[class="number"] {
-  padding: 0 0px;
-  margin: 0;
-}
-
 .side-nav-number-logo {
   display: flex;
   gap: 7px;
   justify-content: center;
+  align-items: center;
+}
+
+li .number {
+  display: flex;
   align-items: center;
 }
 
@@ -137,6 +137,7 @@ body {
   background-color: rgb(255, 59, 48);
   color: white;
   font-size: 7px;
+  margin-left: auto;
 }
 
 .side-nav-lists-bottom-menu .projects {
@@ -145,10 +146,9 @@ body {
   color: rgb(1, 122, 255);
   border-radius: 5px;
   padding: 3px;
-  width: 80%;
+  width: 100%;
   font-weight: bold;
   display: flex;
-  flex: 1;
 }
 
 .main-container {
@@ -225,16 +225,18 @@ body {
   padding: 20px;
 }
 
-.main-bottom-icon-logo img {
+.main-bottom-icon-logo {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+  font-size: 25px;
+  border: 1px solid rgb(243, 243, 244);
 }
 
 .icon-text {
